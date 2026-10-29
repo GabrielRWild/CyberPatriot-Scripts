@@ -15,22 +15,22 @@ Then simply type "sudo ./CP.ch" and watch those points rack up!
 
 # EXAMPLE:
 
-bob@bob's-MacBook-Air ~ % ls                     listed files in the current directory which happens to be ~ (Home)
+# bob@bob's-MacBook-Air ~ % ls                     listed files in the current directory which happens to be ~ (Home)
 file 1                                           fake random file
 file 2                                           fake random file
 file 3                                           fake random file
 folder 1                                         fake example folder that CP.sh is in
 folder 2                                         fake random folder
 folder 3                                         fake random folder
-bob@bob's-MacBook-Air ~ % cd ./folder 1          changing current dir to folder 1
+# bob@bob's-MacBook-Air ~ % cd ./folder 1          changing current dir to folder 1
 bob@bob's-MacBook-Air folder 1 % ls              listing files in dir. again
 CP.sh                                            fake example folder is confirmed that it has CP.sh so it is the correct folder.
-bob@bob's-MacBook-Air folder 1 % chmod +x CP.sh  granting CP.sh run privilidges
-bob@bob's-MacBook-Air folder 1 % sudo ./ CP.sh
+# bob@bob's-MacBook-Air folder 1 % chmod +x CP.sh  granting CP.sh run privilidges
+# bob@bob's-MacBook-Air folder 1 % sudo ./ CP.sh
 Scripts output...
 Scripts output...
 Scripts output...
 Scripts output...
 Scripts output...
 Scripts output...
-Cyberpatriot management script completed, all tasks have been executed. please fork and tweak our file @
+# Cyberpatriot management script completed, all tasks have been executed. please fork and tweak our file @
