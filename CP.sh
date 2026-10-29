@@ -144,4 +144,4 @@ fi
 echo "home directory permission check completed."
 
 
-echo "Cyberpatriot management script completed."
+echo "Cyberpatriot management script completed, all tasks have been executed. please fork and tweak our file @https://github.com/GabrielRWild/CyberPatriot-Scripts"
