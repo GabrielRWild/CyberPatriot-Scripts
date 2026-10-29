@@ -1,1 +1,3 @@
 # CyberPatriot-Scripts
+
+##NOTICE
