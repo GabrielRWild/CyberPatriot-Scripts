@@ -13,7 +13,7 @@
 #this script should call and run Home_perms.sh to do what is in it.
 
 #!/bin/bash
-<< Comment
+
 # Function to check if a user exists
 user_exists() {
     id "$1" &>/dev/null
@@ -62,7 +62,7 @@ fi
 for user in $(cut -d: -f1 /etc/passwd); do
     change_password "$user"
 done       
-Comment
+
 
 # Call the Hacking_software.sh script to check for forbidden hacking software--------------------------------------------------
 if [ -f "./Hacking_software.sh" ]; then
