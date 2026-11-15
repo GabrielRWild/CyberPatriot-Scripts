@@ -13,7 +13,7 @@
 #this script should call and run Home_perms.sh to do what is in it.
 
 #!/bin/bash
-
+<< Comment
 # Function to check if a user exists
 user_exists() {
     id "$1" &>/dev/null
@@ -62,6 +62,7 @@ fi
 for user in $(cut -d: -f1 /etc/passwd); do
     change_password "$user"
 done       
+Comment
 
 # Call the Hacking_software.sh script to check for forbidden hacking software--------------------------------------------------
 if [ -f "./Hacking_software.sh" ]; then
@@ -142,6 +143,15 @@ else
     echo "Home_perms.sh script not found."
 fi
 echo "home directory permission check completed."
+
+#call and run Other_Software.sh to purge the system of any other software that is not needed------------------------------------------------------------------------------------------------------------------------------
+if [ -f "./Other_Software.sh" ]; then
+    echo "Running Other_Software.sh to purge the system of any other software that is not needed..."
+    bash ./Other_Software.sh
+else
+    echo "Other_Software.sh script not found."
+fi  
+echo "other software purge completed."
 
 
 echo "Cyberpatriot management script completed, all tasks have been executed. please fork and tweak our file @https://github.com/GabrielRWild/CyberPatriot-Scripts"
